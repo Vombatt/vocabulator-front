@@ -1,5 +1,6 @@
 {
   "extends": "./tsconfig.json",
+  "angularCompilerOptions": { "enableIvy": false }, // FIXME: fontawesome module conflict
   "compilerOptions": {
     "outDir": "./out-tsc/app",
     "types": []
