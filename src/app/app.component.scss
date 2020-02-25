@@ -1,0 +1,7 @@
+@import "~@angular/material/theming";
+
+.application-container {
+    width: 100%;
+    height: 100%;
+    background-color: mat-color($primary);
+}
