@@ -6,3 +6,10 @@
 //     height: 60px;
 //     background-color: #00a2ec;
 // }
+
+:host {
+    background-color: var(--main-color);
+    width: 100px;
+    height: 80px;
+    display: block;
+}
