@@ -2,5 +2,27 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .dark-theme {
-    --base: 
+    --base: #424242;
+    --base-light: #6d6d6d;
+    --base-dark: #1b1b1b;
+
+    --primary: #6002ee;
+    --primary-light: #9c47ff;
+    --primary-dark: #0000ba;
+
+    --secondary: #a500e1;
+    --secondary-light: #db51ff;
+    --secondary-dark: #6f00ae;
+
+    --error:  #a20000;
+
+    --on-base: white;
+
+    --on-primary: white;
+    --on-primary-light: black;
+
+    --on-secondary: white;
+    --on-secondary-light: black;
+
+    --on-error: white;
 }
