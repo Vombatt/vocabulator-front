@@ -1,37 +1,6 @@
-// @import "~@angular/material/theming";
-
-// .application-container {
-//     width: 100%;
-//     height: 100%;
-//     background-color: mat-color($primary);
-// }
-
-// @mixin application-container($theme) {
-//     // Extract the palettes you need from the theme definition.
-//     $primary: map-get($theme, primary);
-//     $accent: map-get($theme, accent);
-  
-//     // Define any styles affected by the theme.
-//     .application-container {
-//       // Use mat-color to extract individual colors from a palette.
-//       background-color: mat-color($primary);
-//     //   border-color: mat-color($accent, A400);
-//     }
-//   }
-
-// @import '~@angular/material/theming';
-
-// // Define a mixin that accepts a theme and outputs the theme-specific styles.
-
-// // Define any styles affected by the theme.
-// .application-container {
-// // Use mat-color to extract individual colors from a palette.
-// background-color: mat-color(map-get($theme, primary));
-// border-color: mat-color($accent, A400);
-// }
-
-.test-square {
-    background-color: var(--main-color);
-    width: 30px;
-    height: 30px;
+:host {
+    background-color: var(--base);
+    display: block;
+    width: 100%;
+    height: 100%;
 }

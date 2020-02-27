@@ -1,16 +1,4 @@
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: white;
-    
-    height: 40px;
+button {
     border-radius: 20px;
-
-    cursor: pointer;
-
-    &:hover {
-        background-color: blue;
-    }
+    background-color: var(--secondary);
 }
