@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-button',
@@ -8,6 +9,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ButtonComponent implements OnInit {
 
   constructor() { }
+
+  // faCoffee = faCoffee;
 
   ngOnInit(): void {
   }
